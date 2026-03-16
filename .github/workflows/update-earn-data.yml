@@ -1,0 +1,49 @@
+name: Update Binance Flexible Earn Data
+
+on:
+  schedule:
+    # Runs 4× per day. Binance's /sapi/v1/simple-earn/flexible/list has a
+    # request weight of 150 per IP, and the default IP weight limit resets
+    # every minute, so spacing runs 6 h apart is comfortably within limits.
+    - cron: "0 0,6,12,18 * * *"
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to push the updated JSON back to the repo
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Build
+        run: go build -o binance-earn-tracker .
+
+      - name: Fetch flexible earn products
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          API_SECRET: ${{ secrets.API_SECRET }}
+        run: ./binance-earn-tracker --output data/flexible-earn.json
+
+      - name: Sync JSON to frontend public folder
+        run: cp data/flexible-earn.json frontend/public/flexible-earn.json
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/flexible-earn.json frontend/public/flexible-earn.json
+          # Only commit when there are actual changes
+          git diff --cached --quiet || git commit -m "chore: update flexible earn data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          git push
