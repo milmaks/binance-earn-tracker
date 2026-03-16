@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:        #0b0e14;
+  --surface:   #131720;
+  --surface2:  #1b2131;
+  --border:    #242d42;
+  --accent:    #f0b90b;
+  --accent-dim:#b88a08;
+  --green:     #0ecb81;
+  --red:       #f6465d;
+  --blue:      #2b9af3;
+  --text:      #eaecef;
+  --muted:     #7b8097;
+  --radius:    10px;
+  font-size: 14px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* Sticky asset column */
+.col-asset {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--surface);
+}
+thead .col-asset {
+  background: var(--surface2);
+  z-index: 3;
+}
+
+/* Hide secondary columns on small screens */
+@media (max-width: 700px) {
+  .col-price,
+  .col-min-purchase,
+  .col-status,
+  .col-actions,
+  .col-airdrop {
+    display: none;
+  }
+}
