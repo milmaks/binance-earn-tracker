@@ -190,7 +190,7 @@ export default function App() {
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 4 }}>
             <img
-              src="/android-chrome-192x192.png"
+              src={import.meta.env.BASE_URL + 'android-chrome-192x192.png'}
               alt="Earn tracker icon"
               width={36}
               height={36}
