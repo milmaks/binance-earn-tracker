@@ -55,7 +55,7 @@ export default function App() {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch('/flexible-earn.json')
+    fetch(import.meta.env.BASE_URL + 'flexible-earn.json')
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then(setData)
       .catch(e => setError(e.message));
