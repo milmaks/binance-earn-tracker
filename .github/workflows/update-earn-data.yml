@@ -44,7 +44,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.DATA_UPDATE_PAT }}
           branch: chore/update-earn-data
           title: "chore: update flexible earn data"
       
@@ -52,4 +52,4 @@ jobs:
         if: steps.cpr.outputs.pull-request-operation == 'created'
         run: gh pr merge --auto --squash --admin "${{ steps.cpr.outputs.pull-request-number }}"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.DATA_UPDATE_PAT }}
