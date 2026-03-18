@@ -1,11 +1,11 @@
 name: Update Binance Flexible Earn Data
 
 on:
-  schedule:
+  # schedule:
     # Runs 4× per day. Binance's /sapi/v1/simple-earn/flexible/list has a
     # request weight of 150 per IP, and the default IP weight limit resets
     # every minute, so spacing runs 6 h apart is comfortably within limits.
-    - cron: "0 0,6,12,18 * * *"
+    # - cron: "0 0,6,12,18 * * *"
 
   # Allow manual trigger from the Actions tab
   workflow_dispatch:
