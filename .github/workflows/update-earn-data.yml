@@ -40,11 +40,16 @@ jobs:
       - name: Sync JSON to frontend public folder
         run: cp data/flexible-earn.json frontend/public/flexible-earn.json
 
-      - name: Commit and push updated data
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/flexible-earn.json frontend/public/flexible-earn.json
-          # Only commit when there are actual changes
-          git diff --cached --quiet || git commit -m "chore: update flexible earn data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
-          git push
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/update-earn-data
+          title: "chore: update flexible earn data"
+      
+      - name: Enable Auto-merge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        run: gh pr merge --auto --squash --admin "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
