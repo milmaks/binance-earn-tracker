@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-30T12:58:18Z",
+  "updatedAt": "2026-03-30T18:50:23Z",
   "total": 440,
   "stablecoins": [
     "USDT",
@@ -11,9 +11,9 @@
     "PYUSD",
     "BUIDL",
     "USYC",
+    "USDY",
     "USDG",
     "USDF",
-    "USDY",
     "RLUSD",
     "USDD",
     "U",
@@ -26,10 +26,10 @@
     "USX",
     "RWAUSDI",
     "USDAI",
+    "M",
     "USDA",
     "CRVUSD",
     "BUSD",
-    "M",
     "FRAX",
     "HUSD",
     "REUSD",
@@ -37,8 +37,8 @@
     "FLEXUSD",
     "SATUSD",
     "AUSD",
-    "MUST",
     "GUSD",
+    "MUST",
     "TBILL",
     "DOLA",
     "AVUSD",
@@ -52,8 +52,8 @@
     "PMUSD",
     "USPD",
     "USDU",
-    "USDH",
     "DEUSD",
+    "USDH",
     "JUPUSD",
     "LISUSD",
     "CGUSD",
@@ -75,14 +75,16 @@
     "MIM",
     "BOLD",
     "LUSD",
+    "YU",
     "MUSD",
     "USAT",
     "ZEUSD",
-    "USR",
+    "USDN",
     "USDCV",
     "GYD",
     "HONEY",
     "USN",
+    "USR",
     "BUCK",
     "USDB",
     "EUSD",
@@ -93,7 +95,6 @@
     "FXUSD",
     "TOR",
     "HYUSD",
-    "USDN",
     "FEUSD",
     "ALUSD",
     "USDR",
@@ -111,7 +112,6 @@
     "USD3",
     "OUSD",
     "USBD",
-    "YU",
     "HOME",
     "XAI",
     "DOC",
@@ -125,7 +125,6 @@
     "SYUSD",
     "DLLR",
     "USDGLO",
-    "USC",
     "USDW",
     "USDRIF",
     "USDAF",
@@ -134,25 +133,26 @@
     "NOTE",
     "ZKUSD",
     "D",
+    "USC",
     "CTUSD",
+    "FXD",
     "SCUSD",
     "PINA",
     "CZUSD",
-    "FXD",
     "ZUSD",
     "DSU",
     "PXDC",
     "LVLUSD",
     "USK",
     "HAI",
+    "EUSD(V2)",
     "BNBUSD",
     "GGUSD",
-    "EUSD(V2)",
     "THUSD",
     "RUSD",
     "WEUSD",
-    "IST",
     "NECT",
+    "IST",
     "USDK",
     "KUSD",
     "3USD",
@@ -183,8 +183,8 @@
     "PEUSD",
     "VUSD",
     "STAR",
-    "HYDT",
     "WEN",
+    "HYDT",
     "ARUSD",
     "MYUSD",
     "USDA+",
@@ -194,10 +194,10 @@
     "MOD",
     "USH",
     "KEI",
+    "PAUSD",
     "BAOUSD",
     "CLEVUSD",
     "MONEY",
-    "PAUSD",
     "BOB",
     "USDJ",
     "RGUSD",
@@ -293,8 +293,22 @@
   ],
   "products": [
     {
+      "asset": "USDC",
+      "latestAnnualPercentageRate": "0.00870379",
+      "tierAnnualPercentageRate": {},
+      "airDropPercentageRate": "",
+      "canPurchase": true,
+      "canRedeem": true,
+      "isSoldOut": false,
+      "hot": false,
+      "minPurchaseAmount": "0.01",
+      "productId": "USDC001",
+      "subscriptionStartTime": 1596682221000,
+      "status": "PURCHASING"
+    },
+    {
       "asset": "U",
-      "latestAnnualPercentageRate": "0.00067567",
+      "latestAnnualPercentageRate": "0.00067305",
       "tierAnnualPercentageRate": {
         "0-20000U": "0.10000000"
       },
@@ -310,7 +324,7 @@
     },
     {
       "asset": "USDT",
-      "latestAnnualPercentageRate": "0.00826838",
+      "latestAnnualPercentageRate": "0.00845694",
       "tierAnnualPercentageRate": {
         "0-200USDT": "0.03000000"
       },
@@ -325,22 +339,8 @@
       "status": "PURCHASING"
     },
     {
-      "asset": "USDC",
-      "latestAnnualPercentageRate": "0.0080837",
-      "tierAnnualPercentageRate": {},
-      "airDropPercentageRate": "",
-      "canPurchase": true,
-      "canRedeem": true,
-      "isSoldOut": false,
-      "hot": false,
-      "minPurchaseAmount": "0.01",
-      "productId": "USDC001",
-      "subscriptionStartTime": 1596682221000,
-      "status": "PURCHASING"
-    },
-    {
       "asset": "BNB",
-      "latestAnnualPercentageRate": "0.00051103",
+      "latestAnnualPercentageRate": "0.0005037",
       "tierAnnualPercentageRate": {
         "0-1BNB": "0.00120000"
       },
@@ -356,7 +356,7 @@
     },
     {
       "asset": "BTC",
-      "latestAnnualPercentageRate": "0.00030033",
+      "latestAnnualPercentageRate": "0.00030242",
       "tierAnnualPercentageRate": {
         "0-0.01BTC": "0.00250000"
       },
@@ -372,7 +372,7 @@
     },
     {
       "asset": "ETH",
-      "latestAnnualPercentageRate": "0.01439686",
+      "latestAnnualPercentageRate": "0.01502781",
       "tierAnnualPercentageRate": {
         "0-0.2ETH": "0.00100000"
       },
@@ -388,7 +388,7 @@
     },
     {
       "asset": "KGST",
-      "latestAnnualPercentageRate": "0.00813981",
+      "latestAnnualPercentageRate": "0.00798759",
       "tierAnnualPercentageRate": {
         "0-100000KGST": "0.10000000"
       },
@@ -404,7 +404,7 @@
     },
     {
       "asset": "SOL",
-      "latestAnnualPercentageRate": "0.0290694",
+      "latestAnnualPercentageRate": "0.02907836",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -418,7 +418,7 @@
     },
     {
       "asset": "XAUT",
-      "latestAnnualPercentageRate": "0.04755412",
+      "latestAnnualPercentageRate": "0.0413494",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -432,7 +432,7 @@
     },
     {
       "asset": "AUCTION",
-      "latestAnnualPercentageRate": "0.08100227",
+      "latestAnnualPercentageRate": "0.08101879",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -446,7 +446,7 @@
     },
     {
       "asset": "EURI",
-      "latestAnnualPercentageRate": "0.01373875",
+      "latestAnnualPercentageRate": "0.01367977",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -460,7 +460,7 @@
     },
     {
       "asset": "NOM",
-      "latestAnnualPercentageRate": "0.42213962",
+      "latestAnnualPercentageRate": "0.40951946",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -474,7 +474,7 @@
     },
     {
       "asset": "0G",
-      "latestAnnualPercentageRate": "0.33571574",
+      "latestAnnualPercentageRate": "0.34363861",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -488,7 +488,7 @@
     },
     {
       "asset": "ACE",
-      "latestAnnualPercentageRate": "0.13889088",
+      "latestAnnualPercentageRate": "0.1388867",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -502,7 +502,7 @@
     },
     {
       "asset": "AT",
-      "latestAnnualPercentageRate": "0.0451981",
+      "latestAnnualPercentageRate": "0.04521671",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -516,7 +516,7 @@
     },
     {
       "asset": "AVNT",
-      "latestAnnualPercentageRate": "0.05754748",
+      "latestAnnualPercentageRate": "0.04349917",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -530,7 +530,7 @@
     },
     {
       "asset": "AXL",
-      "latestAnnualPercentageRate": "0.07231885",
+      "latestAnnualPercentageRate": "0.06573747",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -544,7 +544,7 @@
     },
     {
       "asset": "BABY",
-      "latestAnnualPercentageRate": "0.11154387",
+      "latestAnnualPercentageRate": "0.11012036",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -558,7 +558,7 @@
     },
     {
       "asset": "BANK",
-      "latestAnnualPercentageRate": "0.10433928",
+      "latestAnnualPercentageRate": "0.10414643",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -572,7 +572,7 @@
     },
     {
       "asset": "BARD",
-      "latestAnnualPercentageRate": "0.14922779",
+      "latestAnnualPercentageRate": "0.15534209",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -586,7 +586,7 @@
     },
     {
       "asset": "BREV",
-      "latestAnnualPercentageRate": "0.10834684",
+      "latestAnnualPercentageRate": "0.1080076",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -600,7 +600,7 @@
     },
     {
       "asset": "CATI",
-      "latestAnnualPercentageRate": "0.04707983",
+      "latestAnnualPercentageRate": "0.02572592",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -614,7 +614,7 @@
     },
     {
       "asset": "CFG",
-      "latestAnnualPercentageRate": "0.24452974",
+      "latestAnnualPercentageRate": "0.23186112",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -628,7 +628,7 @@
     },
     {
       "asset": "EDEN",
-      "latestAnnualPercentageRate": "0.03143149",
+      "latestAnnualPercentageRate": "0.03173013",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -642,7 +642,7 @@
     },
     {
       "asset": "ESP",
-      "latestAnnualPercentageRate": "0.28284769",
+      "latestAnnualPercentageRate": "0.28898719",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -656,7 +656,7 @@
     },
     {
       "asset": "EUL",
-      "latestAnnualPercentageRate": "0.07162121",
+      "latestAnnualPercentageRate": "0.07270436",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -670,7 +670,7 @@
     },
     {
       "asset": "F",
-      "latestAnnualPercentageRate": "0.14014251",
+      "latestAnnualPercentageRate": "0.14123654",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -684,7 +684,7 @@
     },
     {
       "asset": "FF",
-      "latestAnnualPercentageRate": "0.10804632",
+      "latestAnnualPercentageRate": "0.1080007",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -698,7 +698,7 @@
     },
     {
       "asset": "FIDA",
-      "latestAnnualPercentageRate": "0.04124356",
+      "latestAnnualPercentageRate": "0.03973377",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -712,7 +712,7 @@
     },
     {
       "asset": "FOGO",
-      "latestAnnualPercentageRate": "0.11940408",
+      "latestAnnualPercentageRate": "0.12026479",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -726,7 +726,7 @@
     },
     {
       "asset": "FRAX",
-      "latestAnnualPercentageRate": "0.05354797",
+      "latestAnnualPercentageRate": "0.05835277",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -740,7 +740,7 @@
     },
     {
       "asset": "GAS",
-      "latestAnnualPercentageRate": "0.10857845",
+      "latestAnnualPercentageRate": "0.10860179",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -754,7 +754,7 @@
     },
     {
       "asset": "GIGGLE",
-      "latestAnnualPercentageRate": "0.00733477",
+      "latestAnnualPercentageRate": "0.00736192",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -768,7 +768,7 @@
     },
     {
       "asset": "HEMI",
-      "latestAnnualPercentageRate": "0.1014551",
+      "latestAnnualPercentageRate": "0.1139439",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -782,7 +782,7 @@
     },
     {
       "asset": "HOLO",
-      "latestAnnualPercentageRate": "0.11670132",
+      "latestAnnualPercentageRate": "0.11634694",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -796,7 +796,7 @@
     },
     {
       "asset": "KERNEL",
-      "latestAnnualPercentageRate": "0.10879386",
+      "latestAnnualPercentageRate": "0.10802136",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -810,7 +810,7 @@
     },
     {
       "asset": "KITE",
-      "latestAnnualPercentageRate": "0.38078669",
+      "latestAnnualPercentageRate": "0.37624646",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -824,7 +824,7 @@
     },
     {
       "asset": "ME",
-      "latestAnnualPercentageRate": "0.13316373",
+      "latestAnnualPercentageRate": "0.1327781",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -838,7 +838,7 @@
     },
     {
       "asset": "MET",
-      "latestAnnualPercentageRate": "0.11050989",
+      "latestAnnualPercentageRate": "0.11111053",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -852,7 +852,7 @@
     },
     {
       "asset": "MINA",
-      "latestAnnualPercentageRate": "0.01910407",
+      "latestAnnualPercentageRate": "0.01828629",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -866,7 +866,7 @@
     },
     {
       "asset": "MIRA",
-      "latestAnnualPercentageRate": "0.10395412",
+      "latestAnnualPercentageRate": "0.10547182",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -880,7 +880,7 @@
     },
     {
       "asset": "MMT",
-      "latestAnnualPercentageRate": "0.08361467",
+      "latestAnnualPercentageRate": "0.08521998",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -894,7 +894,7 @@
     },
     {
       "asset": "MORPHO",
-      "latestAnnualPercentageRate": "0.02449002",
+      "latestAnnualPercentageRate": "0.02497854",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -908,7 +908,7 @@
     },
     {
       "asset": "MOVE",
-      "latestAnnualPercentageRate": "0.10315627",
+      "latestAnnualPercentageRate": "0.08654728",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -922,7 +922,7 @@
     },
     {
       "asset": "NIGHT",
-      "latestAnnualPercentageRate": "0.01032727",
+      "latestAnnualPercentageRate": "0.01023579",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -936,7 +936,7 @@
     },
     {
       "asset": "OPN",
-      "latestAnnualPercentageRate": "0.00804774",
+      "latestAnnualPercentageRate": "0.00805663",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -950,7 +950,7 @@
     },
     {
       "asset": "ORCA",
-      "latestAnnualPercentageRate": "0.08224842",
+      "latestAnnualPercentageRate": "0.08228765",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -964,7 +964,7 @@
     },
     {
       "asset": "PARTI",
-      "latestAnnualPercentageRate": "0.03031854",
+      "latestAnnualPercentageRate": "0.02975182",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -978,7 +978,7 @@
     },
     {
       "asset": "POLYX",
-      "latestAnnualPercentageRate": "0.16505767",
+      "latestAnnualPercentageRate": "0.16980698",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -992,7 +992,7 @@
     },
     {
       "asset": "PUMP",
-      "latestAnnualPercentageRate": "0.02017795",
+      "latestAnnualPercentageRate": "0.01923783",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1006,7 +1006,7 @@
     },
     {
       "asset": "PUNDIX",
-      "latestAnnualPercentageRate": "0.03231019",
+      "latestAnnualPercentageRate": "0.03232573",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1020,7 +1020,7 @@
     },
     {
       "asset": "RESOLV",
-      "latestAnnualPercentageRate": "0.11274758",
+      "latestAnnualPercentageRate": "0.11533247",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1034,7 +1034,7 @@
     },
     {
       "asset": "SAPIEN",
-      "latestAnnualPercentageRate": "0.0764559",
+      "latestAnnualPercentageRate": "0.07647917",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1048,7 +1048,7 @@
     },
     {
       "asset": "SKY",
-      "latestAnnualPercentageRate": "0.01899777",
+      "latestAnnualPercentageRate": "0.01897198",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1062,7 +1062,7 @@
     },
     {
       "asset": "SOMI",
-      "latestAnnualPercentageRate": "0.01732823",
+      "latestAnnualPercentageRate": "0.0173968",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1076,7 +1076,7 @@
     },
     {
       "asset": "SPK",
-      "latestAnnualPercentageRate": "0.04957771",
+      "latestAnnualPercentageRate": "0.04878954",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1090,7 +1090,7 @@
     },
     {
       "asset": "T",
-      "latestAnnualPercentageRate": "0.10802007",
+      "latestAnnualPercentageRate": "0.09913285",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1104,7 +1104,7 @@
     },
     {
       "asset": "TNSR",
-      "latestAnnualPercentageRate": "0.10901443",
+      "latestAnnualPercentageRate": "0.10834077",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1118,7 +1118,7 @@
     },
     {
       "asset": "TURTLE",
-      "latestAnnualPercentageRate": "0.11827563",
+      "latestAnnualPercentageRate": "0.11810537",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1132,7 +1132,7 @@
     },
     {
       "asset": "UMA",
-      "latestAnnualPercentageRate": "0.04832046",
+      "latestAnnualPercentageRate": "0.08100307",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1146,7 +1146,7 @@
     },
     {
       "asset": "USD1",
-      "latestAnnualPercentageRate": "0.0014369",
+      "latestAnnualPercentageRate": "0.00144316",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1160,7 +1160,7 @@
     },
     {
       "asset": "USUAL",
-      "latestAnnualPercentageRate": "0.08101213",
+      "latestAnnualPercentageRate": "0.06872986",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1174,7 +1174,7 @@
     },
     {
       "asset": "VANA",
-      "latestAnnualPercentageRate": "0.32225081",
+      "latestAnnualPercentageRate": "0.32458071",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1188,7 +1188,7 @@
     },
     {
       "asset": "WAL",
-      "latestAnnualPercentageRate": "0.11042784",
+      "latestAnnualPercentageRate": "0.11481256",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1202,7 +1202,7 @@
     },
     {
       "asset": "WLFI",
-      "latestAnnualPercentageRate": "0.00510156",
+      "latestAnnualPercentageRate": "0.00543781",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1216,7 +1216,7 @@
     },
     {
       "asset": "YB",
-      "latestAnnualPercentageRate": "0.10848077",
+      "latestAnnualPercentageRate": "0.10870638",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1230,7 +1230,7 @@
     },
     {
       "asset": "ZKC",
-      "latestAnnualPercentageRate": "0.11022987",
+      "latestAnnualPercentageRate": "0.10945859",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1244,7 +1244,7 @@
     },
     {
       "asset": "币安人生",
-      "latestAnnualPercentageRate": "0.01471193",
+      "latestAnnualPercentageRate": "0.01461261",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1258,7 +1258,7 @@
     },
     {
       "asset": "LINEA",
-      "latestAnnualPercentageRate": "0.01674228",
+      "latestAnnualPercentageRate": "0.01672648",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1272,7 +1272,7 @@
     },
     {
       "asset": "MITO",
-      "latestAnnualPercentageRate": "0.11253296",
+      "latestAnnualPercentageRate": "0.11218042",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1286,7 +1286,7 @@
     },
     {
       "asset": "OPEN",
-      "latestAnnualPercentageRate": "0.08481002",
+      "latestAnnualPercentageRate": "0.08299807",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1300,7 +1300,7 @@
     },
     {
       "asset": "MBL",
-      "latestAnnualPercentageRate": "0.14910847",
+      "latestAnnualPercentageRate": "0.14918595",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1314,7 +1314,7 @@
     },
     {
       "asset": "RONIN",
-      "latestAnnualPercentageRate": "0.076596",
+      "latestAnnualPercentageRate": "0.13500847",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1328,7 +1328,7 @@
     },
     {
       "asset": "1000CHEEMS",
-      "latestAnnualPercentageRate": "0.05554893",
+      "latestAnnualPercentageRate": "0.05562018",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1342,7 +1342,7 @@
     },
     {
       "asset": "AGLD",
-      "latestAnnualPercentageRate": "0.05519797",
+      "latestAnnualPercentageRate": "0.05522921",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1356,7 +1356,7 @@
     },
     {
       "asset": "ARDR",
-      "latestAnnualPercentageRate": "0.090428",
+      "latestAnnualPercentageRate": "0.09049447",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1370,7 +1370,7 @@
     },
     {
       "asset": "ATA",
-      "latestAnnualPercentageRate": "0.075446",
+      "latestAnnualPercentageRate": "0.07591231",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1384,7 +1384,7 @@
     },
     {
       "asset": "ATOM",
-      "latestAnnualPercentageRate": "0.04972749",
+      "latestAnnualPercentageRate": "0.04993558",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1398,7 +1398,7 @@
     },
     {
       "asset": "AWE",
-      "latestAnnualPercentageRate": "0.19218704",
+      "latestAnnualPercentageRate": "0.1920731",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1412,7 +1412,7 @@
     },
     {
       "asset": "BAT",
-      "latestAnnualPercentageRate": "0.0157649",
+      "latestAnnualPercentageRate": "0.01524857",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1426,7 +1426,7 @@
     },
     {
       "asset": "BERA",
-      "latestAnnualPercentageRate": "0.07581856",
+      "latestAnnualPercentageRate": "0.07591078",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1440,7 +1440,7 @@
     },
     {
       "asset": "BIO",
-      "latestAnnualPercentageRate": "0.05311981",
+      "latestAnnualPercentageRate": "0.03682329",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1454,7 +1454,7 @@
     },
     {
       "asset": "C",
-      "latestAnnualPercentageRate": "0.44847969",
+      "latestAnnualPercentageRate": "0.43822996",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1468,7 +1468,7 @@
     },
     {
       "asset": "CGPT",
-      "latestAnnualPercentageRate": "0.02012582",
+      "latestAnnualPercentageRate": "0.01714988",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1482,7 +1482,7 @@
     },
     {
       "asset": "COW",
-      "latestAnnualPercentageRate": "0.08013503",
+      "latestAnnualPercentageRate": "0.07319013",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1496,7 +1496,7 @@
     },
     {
       "asset": "ENJ",
-      "latestAnnualPercentageRate": "0.21849925",
+      "latestAnnualPercentageRate": "0.21789036",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1510,7 +1510,7 @@
     },
     {
       "asset": "EPIC",
-      "latestAnnualPercentageRate": "0.02993931",
+      "latestAnnualPercentageRate": "0.03520793",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1524,7 +1524,7 @@
     },
     {
       "asset": "FIL",
-      "latestAnnualPercentageRate": "0.00781018",
+      "latestAnnualPercentageRate": "0.00787815",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1538,7 +1538,7 @@
     },
     {
       "asset": "FIO",
-      "latestAnnualPercentageRate": "0.05267573",
+      "latestAnnualPercentageRate": "0.05103517",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1552,7 +1552,7 @@
     },
     {
       "asset": "FUN",
-      "latestAnnualPercentageRate": "0.05058148",
+      "latestAnnualPercentageRate": "0.05049068",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1566,7 +1566,7 @@
     },
     {
       "asset": "GLM",
-      "latestAnnualPercentageRate": "0.04600424",
+      "latestAnnualPercentageRate": "0.03551732",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1580,7 +1580,7 @@
     },
     {
       "asset": "GMT",
-      "latestAnnualPercentageRate": "0.02671999",
+      "latestAnnualPercentageRate": "0.0259718",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1594,7 +1594,7 @@
     },
     {
       "asset": "GMX",
-      "latestAnnualPercentageRate": "0.02379125",
+      "latestAnnualPercentageRate": "0.02371617",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1608,7 +1608,7 @@
     },
     {
       "asset": "GPS",
-      "latestAnnualPercentageRate": "0.0731649",
+      "latestAnnualPercentageRate": "0.07302009",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1622,7 +1622,7 @@
     },
     {
       "asset": "GUN",
-      "latestAnnualPercentageRate": "0.08190452",
+      "latestAnnualPercentageRate": "0.08324996",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1636,7 +1636,7 @@
     },
     {
       "asset": "HYPER",
-      "latestAnnualPercentageRate": "0.10847965",
+      "latestAnnualPercentageRate": "0.10802112",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1650,7 +1650,7 @@
     },
     {
       "asset": "ID",
-      "latestAnnualPercentageRate": "0.03335429",
+      "latestAnnualPercentageRate": "0.03331186",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1664,7 +1664,7 @@
     },
     {
       "asset": "KMNO",
-      "latestAnnualPercentageRate": "0.07165899",
+      "latestAnnualPercentageRate": "0.07175879",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1678,7 +1678,7 @@
     },
     {
       "asset": "LAYER",
-      "latestAnnualPercentageRate": "0.07168993",
+      "latestAnnualPercentageRate": "0.10800543",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1692,7 +1692,7 @@
     },
     {
       "asset": "LPT",
-      "latestAnnualPercentageRate": "0.05940029",
+      "latestAnnualPercentageRate": "0.03513867",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1706,7 +1706,7 @@
     },
     {
       "asset": "LSK",
-      "latestAnnualPercentageRate": "0.07668132",
+      "latestAnnualPercentageRate": "0.08179988",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1720,7 +1720,7 @@
     },
     {
       "asset": "NXPC",
-      "latestAnnualPercentageRate": "0.03995933",
+      "latestAnnualPercentageRate": "0.04397926",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1734,7 +1734,7 @@
     },
     {
       "asset": "ONDO",
-      "latestAnnualPercentageRate": "0.00432247",
+      "latestAnnualPercentageRate": "0.00428948",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1748,7 +1748,7 @@
     },
     {
       "asset": "ONT",
-      "latestAnnualPercentageRate": "0.8044915",
+      "latestAnnualPercentageRate": "0.83865112",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1762,7 +1762,7 @@
     },
     {
       "asset": "PENGU",
-      "latestAnnualPercentageRate": "0.00861733",
+      "latestAnnualPercentageRate": "0.00830416",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1776,7 +1776,7 @@
     },
     {
       "asset": "PHA",
-      "latestAnnualPercentageRate": "0.09498409",
+      "latestAnnualPercentageRate": "0.10042526",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1790,7 +1790,7 @@
     },
     {
       "asset": "PIXEL",
-      "latestAnnualPercentageRate": "0.17042357",
+      "latestAnnualPercentageRate": "0.1715956",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1804,7 +1804,7 @@
     },
     {
       "asset": "POWR",
-      "latestAnnualPercentageRate": "0.09736925",
+      "latestAnnualPercentageRate": "0.09740201",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1818,7 +1818,7 @@
     },
     {
       "asset": "QTUM",
-      "latestAnnualPercentageRate": "0.01752631",
+      "latestAnnualPercentageRate": "0.01957903",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1832,7 +1832,7 @@
     },
     {
       "asset": "QUICK",
-      "latestAnnualPercentageRate": "0.05673633",
+      "latestAnnualPercentageRate": "0.05669854",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1846,7 +1846,7 @@
     },
     {
       "asset": "RED",
-      "latestAnnualPercentageRate": "0.06291073",
+      "latestAnnualPercentageRate": "0.10046917",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1860,7 +1860,7 @@
     },
     {
       "asset": "RPL",
-      "latestAnnualPercentageRate": "0.08139266",
+      "latestAnnualPercentageRate": "0.07606368",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1874,7 +1874,7 @@
     },
     {
       "asset": "RVN",
-      "latestAnnualPercentageRate": "0.03899273",
+      "latestAnnualPercentageRate": "0.0360868",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1888,7 +1888,7 @@
     },
     {
       "asset": "SENT",
-      "latestAnnualPercentageRate": "0.33943627",
+      "latestAnnualPercentageRate": "0.3419405",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1902,7 +1902,7 @@
     },
     {
       "asset": "SIGN",
-      "latestAnnualPercentageRate": "0.02654731",
+      "latestAnnualPercentageRate": "0.02910138",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1916,7 +1916,7 @@
     },
     {
       "asset": "STEEM",
-      "latestAnnualPercentageRate": "0.40186297",
+      "latestAnnualPercentageRate": "0.42435144",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1930,7 +1930,7 @@
     },
     {
       "asset": "STO",
-      "latestAnnualPercentageRate": "0.14964717",
+      "latestAnnualPercentageRate": "0.14822062",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1944,7 +1944,7 @@
     },
     {
       "asset": "STRAX",
-      "latestAnnualPercentageRate": "0.10910211",
+      "latestAnnualPercentageRate": "0.10913688",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1958,7 +1958,7 @@
     },
     {
       "asset": "SXT",
-      "latestAnnualPercentageRate": "0.02295478",
+      "latestAnnualPercentageRate": "0.03803027",
       "tierAnnualPercentageRate": {
         "0-100000SXT": "0.30000000"
       },
@@ -1974,7 +1974,7 @@
     },
     {
       "asset": "SYRUP",
-      "latestAnnualPercentageRate": "0.01583716",
+      "latestAnnualPercentageRate": "0.01464356",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -1988,7 +1988,7 @@
     },
     {
       "asset": "TUT",
-      "latestAnnualPercentageRate": "0.03170246",
+      "latestAnnualPercentageRate": "0.03151196",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2002,7 +2002,7 @@
     },
     {
       "asset": "VELODROME",
-      "latestAnnualPercentageRate": "0.09126895",
+      "latestAnnualPercentageRate": "0.09102957",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2016,7 +2016,7 @@
     },
     {
       "asset": "VIC",
-      "latestAnnualPercentageRate": "0.05362564",
+      "latestAnnualPercentageRate": "0.05364079",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2030,7 +2030,7 @@
     },
     {
       "asset": "VIRTUAL",
-      "latestAnnualPercentageRate": "0.01380751",
+      "latestAnnualPercentageRate": "0.01200257",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2044,7 +2044,7 @@
     },
     {
       "asset": "XAI",
-      "latestAnnualPercentageRate": "0.08156373",
+      "latestAnnualPercentageRate": "0.06899748",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2058,7 +2058,7 @@
     },
     {
       "asset": "ZBT",
-      "latestAnnualPercentageRate": "0.10811563",
+      "latestAnnualPercentageRate": "0.11264142",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2072,7 +2072,7 @@
     },
     {
       "asset": "ZKP",
-      "latestAnnualPercentageRate": "0.11900469",
+      "latestAnnualPercentageRate": "0.11737805",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2086,7 +2086,7 @@
     },
     {
       "asset": "WBETH",
-      "latestAnnualPercentageRate": "0.00002732",
+      "latestAnnualPercentageRate": "0.0000268",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2100,7 +2100,7 @@
     },
     {
       "asset": "MTL",
-      "latestAnnualPercentageRate": "0.13309272",
+      "latestAnnualPercentageRate": "0.13318938",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2114,7 +2114,7 @@
     },
     {
       "asset": "2Z",
-      "latestAnnualPercentageRate": "0.07006405",
+      "latestAnnualPercentageRate": "0.07010614",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2128,7 +2128,7 @@
     },
     {
       "asset": "ACH",
-      "latestAnnualPercentageRate": "0.00612315",
+      "latestAnnualPercentageRate": "0.00631497",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2142,7 +2142,7 @@
     },
     {
       "asset": "ACT",
-      "latestAnnualPercentageRate": "0.0205067",
+      "latestAnnualPercentageRate": "0.02053334",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2156,7 +2156,7 @@
     },
     {
       "asset": "ALLO",
-      "latestAnnualPercentageRate": "0.08036572",
+      "latestAnnualPercentageRate": "0.08888344",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2170,7 +2170,7 @@
     },
     {
       "asset": "ANIME",
-      "latestAnnualPercentageRate": "0.13517117",
+      "latestAnnualPercentageRate": "0.1350498",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2184,7 +2184,7 @@
     },
     {
       "asset": "API3",
-      "latestAnnualPercentageRate": "0.1351104",
+      "latestAnnualPercentageRate": "0.1416645",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2198,7 +2198,7 @@
     },
     {
       "asset": "ARPA",
-      "latestAnnualPercentageRate": "0.03444832",
+      "latestAnnualPercentageRate": "0.03452451",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2212,7 +2212,7 @@
     },
     {
       "asset": "ASR",
-      "latestAnnualPercentageRate": "0.05692233",
+      "latestAnnualPercentageRate": "0.03434724",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2226,7 +2226,7 @@
     },
     {
       "asset": "ASTER",
-      "latestAnnualPercentageRate": "0.00192499",
+      "latestAnnualPercentageRate": "0.00185253",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2240,7 +2240,7 @@
     },
     {
       "asset": "AVA",
-      "latestAnnualPercentageRate": "0.013425",
+      "latestAnnualPercentageRate": "0.01342693",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2254,7 +2254,7 @@
     },
     {
       "asset": "AXS",
-      "latestAnnualPercentageRate": "0.11236208",
+      "latestAnnualPercentageRate": "0.11259934",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2268,7 +2268,7 @@
     },
     {
       "asset": "BANANA",
-      "latestAnnualPercentageRate": "0.11327559",
+      "latestAnnualPercentageRate": "0.11442082",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2282,7 +2282,7 @@
     },
     {
       "asset": "BANANAS31",
-      "latestAnnualPercentageRate": "0.11573999",
+      "latestAnnualPercentageRate": "0.11562023",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2296,7 +2296,7 @@
     },
     {
       "asset": "BEL",
-      "latestAnnualPercentageRate": "0.04584814",
+      "latestAnnualPercentageRate": "0.04591579",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2310,7 +2310,7 @@
     },
     {
       "asset": "BMT",
-      "latestAnnualPercentageRate": "0.05438346",
+      "latestAnnualPercentageRate": "0.04355802",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2324,7 +2324,7 @@
     },
     {
       "asset": "BONK",
-      "latestAnnualPercentageRate": "0.00563058",
+      "latestAnnualPercentageRate": "0.00563316",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2338,7 +2338,7 @@
     },
     {
       "asset": "COOKIE",
-      "latestAnnualPercentageRate": "0.09142948",
+      "latestAnnualPercentageRate": "0.09113806",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2352,7 +2352,7 @@
     },
     {
       "asset": "CVC",
-      "latestAnnualPercentageRate": "0.08196639",
+      "latestAnnualPercentageRate": "0.08215892",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2366,7 +2366,7 @@
     },
     {
       "asset": "D",
-      "latestAnnualPercentageRate": "0.17232179",
+      "latestAnnualPercentageRate": "0.17398248",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2380,7 +2380,7 @@
     },
     {
       "asset": "DOGS",
-      "latestAnnualPercentageRate": "0.01771213",
+      "latestAnnualPercentageRate": "0.0160037",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2394,7 +2394,7 @@
     },
     {
       "asset": "DOLO",
-      "latestAnnualPercentageRate": "0.03581282",
+      "latestAnnualPercentageRate": "0.03871493",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2408,7 +2408,7 @@
     },
     {
       "asset": "DYM",
-      "latestAnnualPercentageRate": "0.12803157",
+      "latestAnnualPercentageRate": "0.12692338",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2422,7 +2422,7 @@
     },
     {
       "asset": "ENSO",
-      "latestAnnualPercentageRate": "0.1462644",
+      "latestAnnualPercentageRate": "0.14587024",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2436,7 +2436,7 @@
     },
     {
       "asset": "ERA",
-      "latestAnnualPercentageRate": "0.09987001",
+      "latestAnnualPercentageRate": "0.09981163",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2450,7 +2450,7 @@
     },
     {
       "asset": "FLUX",
-      "latestAnnualPercentageRate": "0.09428122",
+      "latestAnnualPercentageRate": "0.03973445",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2464,7 +2464,7 @@
     },
     {
       "asset": "HAEDAL",
-      "latestAnnualPercentageRate": "0.0862887",
+      "latestAnnualPercentageRate": "0.08423851",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2478,7 +2478,7 @@
     },
     {
       "asset": "HEI",
-      "latestAnnualPercentageRate": "0.05238189",
+      "latestAnnualPercentageRate": "0.05509171",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2492,7 +2492,7 @@
     },
     {
       "asset": "HFT",
-      "latestAnnualPercentageRate": "0.05622832",
+      "latestAnnualPercentageRate": "0.05507953",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2506,7 +2506,7 @@
     },
     {
       "asset": "HIGH",
-      "latestAnnualPercentageRate": "0.04945236",
+      "latestAnnualPercentageRate": "0.04668154",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2520,7 +2520,7 @@
     },
     {
       "asset": "HIVE",
-      "latestAnnualPercentageRate": "0.08300166",
+      "latestAnnualPercentageRate": "0.05997425",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2534,7 +2534,7 @@
     },
     {
       "asset": "HOME",
-      "latestAnnualPercentageRate": "0.04607939",
+      "latestAnnualPercentageRate": "0.06756864",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2548,7 +2548,7 @@
     },
     {
       "asset": "ICX",
-      "latestAnnualPercentageRate": "0.08385695",
+      "latestAnnualPercentageRate": "0.08859012",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2562,7 +2562,7 @@
     },
     {
       "asset": "INIT",
-      "latestAnnualPercentageRate": "0.13522145",
+      "latestAnnualPercentageRate": "0.13634433",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2576,7 +2576,7 @@
     },
     {
       "asset": "IOST",
-      "latestAnnualPercentageRate": "0.02413719",
+      "latestAnnualPercentageRate": "0.02415357",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2590,7 +2590,7 @@
     },
     {
       "asset": "JUP",
-      "latestAnnualPercentageRate": "0.00702462",
+      "latestAnnualPercentageRate": "0.0068281",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2604,7 +2604,7 @@
     },
     {
       "asset": "KAIA",
-      "latestAnnualPercentageRate": "0.00560087",
+      "latestAnnualPercentageRate": "0.00409957",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2618,7 +2618,7 @@
     },
     {
       "asset": "LA",
-      "latestAnnualPercentageRate": "0.16226303",
+      "latestAnnualPercentageRate": "0.16174118",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2632,7 +2632,7 @@
     },
     {
       "asset": "LUMIA",
-      "latestAnnualPercentageRate": "0.03198028",
+      "latestAnnualPercentageRate": "0.05422075",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2646,7 +2646,7 @@
     },
     {
       "asset": "MAGIC",
-      "latestAnnualPercentageRate": "0.10801813",
+      "latestAnnualPercentageRate": "0.07458772",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2660,7 +2660,7 @@
     },
     {
       "asset": "MANTRA",
-      "latestAnnualPercentageRate": "0.10947366",
+      "latestAnnualPercentageRate": "0.11002142",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2674,7 +2674,7 @@
     },
     {
       "asset": "MLN",
-      "latestAnnualPercentageRate": "0.07980318",
+      "latestAnnualPercentageRate": "0.0798044",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2688,7 +2688,7 @@
     },
     {
       "asset": "NEIRO",
-      "latestAnnualPercentageRate": "0.00534046",
+      "latestAnnualPercentageRate": "0.00511684",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2702,7 +2702,7 @@
     },
     {
       "asset": "NEO",
-      "latestAnnualPercentageRate": "0.01328344",
+      "latestAnnualPercentageRate": "0.01308483",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2716,7 +2716,7 @@
     },
     {
       "asset": "NEWT",
-      "latestAnnualPercentageRate": "0.23954242",
+      "latestAnnualPercentageRate": "0.23861774",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2730,7 +2730,7 @@
     },
     {
       "asset": "NFP",
-      "latestAnnualPercentageRate": "0.0213414",
+      "latestAnnualPercentageRate": "0.02136346",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2744,7 +2744,7 @@
     },
     {
       "asset": "NOT",
-      "latestAnnualPercentageRate": "0.00692906",
+      "latestAnnualPercentageRate": "0.00652061",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2758,7 +2758,7 @@
     },
     {
       "asset": "OG",
-      "latestAnnualPercentageRate": "0.02653354",
+      "latestAnnualPercentageRate": "0.02571415",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2772,7 +2772,7 @@
     },
     {
       "asset": "ONG",
-      "latestAnnualPercentageRate": "0.29310485",
+      "latestAnnualPercentageRate": "0.29621285",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2786,7 +2786,7 @@
     },
     {
       "asset": "PLUME",
-      "latestAnnualPercentageRate": "0.01630207",
+      "latestAnnualPercentageRate": "0.01656007",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2800,7 +2800,7 @@
     },
     {
       "asset": "POL",
-      "latestAnnualPercentageRate": "0.01836688",
+      "latestAnnualPercentageRate": "0.01849339",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2814,7 +2814,7 @@
     },
     {
       "asset": "POND",
-      "latestAnnualPercentageRate": "0.04616286",
+      "latestAnnualPercentageRate": "0.04657341",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2828,7 +2828,7 @@
     },
     {
       "asset": "PROVE",
-      "latestAnnualPercentageRate": "0.24899357",
+      "latestAnnualPercentageRate": "0.24947072",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2842,7 +2842,7 @@
     },
     {
       "asset": "RAD",
-      "latestAnnualPercentageRate": "0.10826165",
+      "latestAnnualPercentageRate": "0.10972894",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2856,7 +2856,7 @@
     },
     {
       "asset": "RARE",
-      "latestAnnualPercentageRate": "0.05156492",
+      "latestAnnualPercentageRate": "0.05159544",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2870,7 +2870,7 @@
     },
     {
       "asset": "REZ",
-      "latestAnnualPercentageRate": "0.10801024",
+      "latestAnnualPercentageRate": "0.10830938",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2884,7 +2884,7 @@
     },
     {
       "asset": "RLUSD",
-      "latestAnnualPercentageRate": "0.00004517",
+      "latestAnnualPercentageRate": "0.00005094",
       "tierAnnualPercentageRate": {
         "0-5000RLUSD": "0.08000000"
       },
@@ -2900,7 +2900,7 @@
     },
     {
       "asset": "ROBO",
-      "latestAnnualPercentageRate": "0.12583447",
+      "latestAnnualPercentageRate": "0.12566402",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2914,7 +2914,7 @@
     },
     {
       "asset": "S",
-      "latestAnnualPercentageRate": "0.00783681",
+      "latestAnnualPercentageRate": "0.00701472",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2928,7 +2928,7 @@
     },
     {
       "asset": "SAHARA",
-      "latestAnnualPercentageRate": "0.15569544",
+      "latestAnnualPercentageRate": "0.15483037",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2942,7 +2942,7 @@
     },
     {
       "asset": "SHELL",
-      "latestAnnualPercentageRate": "0.04956201",
+      "latestAnnualPercentageRate": "0.04739103",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2956,7 +2956,7 @@
     },
     {
       "asset": "SOLV",
-      "latestAnnualPercentageRate": "0.02031976",
+      "latestAnnualPercentageRate": "0.015492",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2970,7 +2970,7 @@
     },
     {
       "asset": "SOPH",
-      "latestAnnualPercentageRate": "0.1277193",
+      "latestAnnualPercentageRate": "0.12721573",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2984,7 +2984,7 @@
     },
     {
       "asset": "SPELL",
-      "latestAnnualPercentageRate": "0.04104082",
+      "latestAnnualPercentageRate": "0.05024606",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -2998,7 +2998,7 @@
     },
     {
       "asset": "STORJ",
-      "latestAnnualPercentageRate": "0.0980388",
+      "latestAnnualPercentageRate": "0.05099171",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3012,7 +3012,7 @@
     },
     {
       "asset": "SYN",
-      "latestAnnualPercentageRate": "0.08036324",
+      "latestAnnualPercentageRate": "0.07927955",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3026,7 +3026,7 @@
     },
     {
       "asset": "SYS",
-      "latestAnnualPercentageRate": "0.02174047",
+      "latestAnnualPercentageRate": "0.0217432",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3040,7 +3040,7 @@
     },
     {
       "asset": "TIA",
-      "latestAnnualPercentageRate": "0.00679157",
+      "latestAnnualPercentageRate": "0.00697916",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3054,7 +3054,7 @@
     },
     {
       "asset": "TOWNS",
-      "latestAnnualPercentageRate": "0.1100277",
+      "latestAnnualPercentageRate": "0.11018268",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3068,7 +3068,7 @@
     },
     {
       "asset": "TREE",
-      "latestAnnualPercentageRate": "0.13434382",
+      "latestAnnualPercentageRate": "0.13451586",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3082,7 +3082,7 @@
     },
     {
       "asset": "TRUMP",
-      "latestAnnualPercentageRate": "0.0439055",
+      "latestAnnualPercentageRate": "0.04419251",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3096,7 +3096,7 @@
     },
     {
       "asset": "WAXP",
-      "latestAnnualPercentageRate": "0.13571707",
+      "latestAnnualPercentageRate": "0.13507219",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3110,7 +3110,7 @@
     },
     {
       "asset": "WCT",
-      "latestAnnualPercentageRate": "0.02407782",
+      "latestAnnualPercentageRate": "0.02404931",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3124,7 +3124,7 @@
     },
     {
       "asset": "XPL",
-      "latestAnnualPercentageRate": "0.01047082",
+      "latestAnnualPercentageRate": "0.01055703",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3138,7 +3138,7 @@
     },
     {
       "asset": "XUSD",
-      "latestAnnualPercentageRate": "0.02964517",
+      "latestAnnualPercentageRate": "0.0286973",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3152,7 +3152,7 @@
     },
     {
       "asset": "YGG",
-      "latestAnnualPercentageRate": "0.00561191",
+      "latestAnnualPercentageRate": "0.00474789",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3166,7 +3166,7 @@
     },
     {
       "asset": "ZK",
-      "latestAnnualPercentageRate": "0.00892948",
+      "latestAnnualPercentageRate": "0.0090977",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3180,7 +3180,7 @@
     },
     {
       "asset": "1MBABYDOGE",
-      "latestAnnualPercentageRate": "0.01054683",
+      "latestAnnualPercentageRate": "0.01050791",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3194,7 +3194,7 @@
     },
     {
       "asset": "TURBO",
-      "latestAnnualPercentageRate": "0.10802601",
+      "latestAnnualPercentageRate": "0.10828807",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3208,7 +3208,7 @@
     },
     {
       "asset": "MANTA",
-      "latestAnnualPercentageRate": "0.01853468",
+      "latestAnnualPercentageRate": "0.01869147",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3222,7 +3222,7 @@
     },
     {
       "asset": "A",
-      "latestAnnualPercentageRate": "0.00801036",
+      "latestAnnualPercentageRate": "0.00790737",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3236,7 +3236,7 @@
     },
     {
       "asset": "AIXBT",
-      "latestAnnualPercentageRate": "0.07524986",
+      "latestAnnualPercentageRate": "0.05590991",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3250,7 +3250,7 @@
     },
     {
       "asset": "AMP",
-      "latestAnnualPercentageRate": "0.08849762",
+      "latestAnnualPercentageRate": "0.13863497",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3264,7 +3264,7 @@
     },
     {
       "asset": "ASTR",
-      "latestAnnualPercentageRate": "0.04669184",
+      "latestAnnualPercentageRate": "0.04624163",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3278,7 +3278,7 @@
     },
     {
       "asset": "AVAX",
-      "latestAnnualPercentageRate": "0.00412731",
+      "latestAnnualPercentageRate": "0.00412782",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3292,7 +3292,7 @@
     },
     {
       "asset": "BIGTIME",
-      "latestAnnualPercentageRate": "0.11327131",
+      "latestAnnualPercentageRate": "0.11297453",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3306,7 +3306,7 @@
     },
     {
       "asset": "BLUR",
-      "latestAnnualPercentageRate": "0.02700389",
+      "latestAnnualPercentageRate": "0.02702986",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3320,7 +3320,7 @@
     },
     {
       "asset": "BNT",
-      "latestAnnualPercentageRate": "0.08462145",
+      "latestAnnualPercentageRate": "0.08466089",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3334,7 +3334,7 @@
     },
     {
       "asset": "CETUS",
-      "latestAnnualPercentageRate": "0.0403911",
+      "latestAnnualPercentageRate": "0.08219337",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3348,7 +3348,7 @@
     },
     {
       "asset": "CITY",
-      "latestAnnualPercentageRate": "0.05220955",
+      "latestAnnualPercentageRate": "0.05107124",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3362,7 +3362,7 @@
     },
     {
       "asset": "COMP",
-      "latestAnnualPercentageRate": "0.01386324",
+      "latestAnnualPercentageRate": "0.01393177",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3376,7 +3376,7 @@
     },
     {
       "asset": "COS",
-      "latestAnnualPercentageRate": "0.22194486",
+      "latestAnnualPercentageRate": "0.22602977",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3390,7 +3390,7 @@
     },
     {
       "asset": "ENA",
-      "latestAnnualPercentageRate": "0.00562839",
+      "latestAnnualPercentageRate": "0.00563031",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3404,7 +3404,7 @@
     },
     {
       "asset": "FORM",
-      "latestAnnualPercentageRate": "0.00381888",
+      "latestAnnualPercentageRate": "0.00333365",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3418,7 +3418,7 @@
     },
     {
       "asset": "G",
-      "latestAnnualPercentageRate": "0.12064529",
+      "latestAnnualPercentageRate": "0.12112661",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3432,7 +3432,7 @@
     },
     {
       "asset": "HMSTR",
-      "latestAnnualPercentageRate": "0.06419077",
+      "latestAnnualPercentageRate": "0.04640378",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3446,7 +3446,7 @@
     },
     {
       "asset": "HUMA",
-      "latestAnnualPercentageRate": "0.08100123",
+      "latestAnnualPercentageRate": "0.08245602",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3460,7 +3460,7 @@
     },
     {
       "asset": "IMX",
-      "latestAnnualPercentageRate": "0.04673007",
+      "latestAnnualPercentageRate": "0.04591116",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3474,7 +3474,7 @@
     },
     {
       "asset": "KAITO",
-      "latestAnnualPercentageRate": "0.12685994",
+      "latestAnnualPercentageRate": "0.12513346",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3488,7 +3488,7 @@
     },
     {
       "asset": "KAT",
-      "latestAnnualPercentageRate": "0.12419284",
+      "latestAnnualPercentageRate": "0.13137416",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3502,7 +3502,7 @@
     },
     {
       "asset": "MUBARAK",
-      "latestAnnualPercentageRate": "0.01759045",
+      "latestAnnualPercentageRate": "0.01756231",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3516,7 +3516,7 @@
     },
     {
       "asset": "NIL",
-      "latestAnnualPercentageRate": "0.10906647",
+      "latestAnnualPercentageRate": "0.107821",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3530,7 +3530,7 @@
     },
     {
       "asset": "NMR",
-      "latestAnnualPercentageRate": "0.10854367",
+      "latestAnnualPercentageRate": "0.0317507",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3544,7 +3544,7 @@
     },
     {
       "asset": "OXT",
-      "latestAnnualPercentageRate": "0.11357447",
+      "latestAnnualPercentageRate": "0.11348356",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3558,7 +3558,7 @@
     },
     {
       "asset": "PNUT",
-      "latestAnnualPercentageRate": "0.01222115",
+      "latestAnnualPercentageRate": "0.0122257",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3572,7 +3572,7 @@
     },
     {
       "asset": "PORTAL",
-      "latestAnnualPercentageRate": "0.05926544",
+      "latestAnnualPercentageRate": "0.04954011",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3586,7 +3586,7 @@
     },
     {
       "asset": "PYTH",
-      "latestAnnualPercentageRate": "0.00520657",
+      "latestAnnualPercentageRate": "0.00483896",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3600,7 +3600,7 @@
     },
     {
       "asset": "QI",
-      "latestAnnualPercentageRate": "0.02619645",
+      "latestAnnualPercentageRate": "0.02636607",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3614,7 +3614,7 @@
     },
     {
       "asset": "RIF",
-      "latestAnnualPercentageRate": "0.09054221",
+      "latestAnnualPercentageRate": "0.13338062",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3628,7 +3628,7 @@
     },
     {
       "asset": "SANTOS",
-      "latestAnnualPercentageRate": "0.01571832",
+      "latestAnnualPercentageRate": "0.01626151",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3642,7 +3642,7 @@
     },
     {
       "asset": "SCRT",
-      "latestAnnualPercentageRate": "0.02324341",
+      "latestAnnualPercentageRate": "0.02389055",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3656,7 +3656,7 @@
     },
     {
       "asset": "SEI",
-      "latestAnnualPercentageRate": "0.02811043",
+      "latestAnnualPercentageRate": "0.02820046",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3670,7 +3670,7 @@
     },
     {
       "asset": "SUI",
-      "latestAnnualPercentageRate": "0.00083554",
+      "latestAnnualPercentageRate": "0.00069688",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3684,7 +3684,7 @@
     },
     {
       "asset": "THE",
-      "latestAnnualPercentageRate": "0.09746907",
+      "latestAnnualPercentageRate": "0.09451598",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3698,7 +3698,7 @@
     },
     {
       "asset": "TST",
-      "latestAnnualPercentageRate": "0.01743438",
+      "latestAnnualPercentageRate": "0.01748801",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3712,7 +3712,7 @@
     },
     {
       "asset": "VTHO",
-      "latestAnnualPercentageRate": "0.00821505",
+      "latestAnnualPercentageRate": "0.00823452",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3726,7 +3726,7 @@
     },
     {
       "asset": "ZAMA",
-      "latestAnnualPercentageRate": "0.0351527",
+      "latestAnnualPercentageRate": "0.02099279",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3740,7 +3740,7 @@
     },
     {
       "asset": "DOT",
-      "latestAnnualPercentageRate": "0.02305085",
+      "latestAnnualPercentageRate": "0.02307131",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3754,7 +3754,7 @@
     },
     {
       "asset": "BEAMX",
-      "latestAnnualPercentageRate": "0.02763958",
+      "latestAnnualPercentageRate": "0.02862276",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3768,7 +3768,7 @@
     },
     {
       "asset": "AEUR",
-      "latestAnnualPercentageRate": "0.0044871",
+      "latestAnnualPercentageRate": "0.00448557",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3782,7 +3782,7 @@
     },
     {
       "asset": "FLOKI",
-      "latestAnnualPercentageRate": "0.00819509",
+      "latestAnnualPercentageRate": "0.00813041",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3796,7 +3796,7 @@
     },
     {
       "asset": "ORDI",
-      "latestAnnualPercentageRate": "0.00281317",
+      "latestAnnualPercentageRate": "0.00318365",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3810,7 +3810,7 @@
     },
     {
       "asset": "1000CAT",
-      "latestAnnualPercentageRate": "0.06166617",
+      "latestAnnualPercentageRate": "0.06879806",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3824,7 +3824,7 @@
     },
     {
       "asset": "1000SATS",
-      "latestAnnualPercentageRate": "0.00545836",
+      "latestAnnualPercentageRate": "0.0052398",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3838,7 +3838,7 @@
     },
     {
       "asset": "ACX",
-      "latestAnnualPercentageRate": "0.10077805",
+      "latestAnnualPercentageRate": "0.1004672",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3852,7 +3852,7 @@
     },
     {
       "asset": "AEVO",
-      "latestAnnualPercentageRate": "0.01307456",
+      "latestAnnualPercentageRate": "0.01262131",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3866,7 +3866,7 @@
     },
     {
       "asset": "AI",
-      "latestAnnualPercentageRate": "0.0180149",
+      "latestAnnualPercentageRate": "0.01754131",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3880,7 +3880,7 @@
     },
     {
       "asset": "BB",
-      "latestAnnualPercentageRate": "0.0120178",
+      "latestAnnualPercentageRate": "0.01336512",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3894,7 +3894,7 @@
     },
     {
       "asset": "BNSOL",
-      "latestAnnualPercentageRate": "0.00002733",
+      "latestAnnualPercentageRate": "0.00002786",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3908,7 +3908,7 @@
     },
     {
       "asset": "BOME",
-      "latestAnnualPercentageRate": "0.00528885",
+      "latestAnnualPercentageRate": "0.00528831",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3922,7 +3922,7 @@
     },
     {
       "asset": "BROCCOLI714",
-      "latestAnnualPercentageRate": "0.01898625",
+      "latestAnnualPercentageRate": "0.08678693",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3936,7 +3936,7 @@
     },
     {
       "asset": "EIGEN",
-      "latestAnnualPercentageRate": "0.01217087",
+      "latestAnnualPercentageRate": "0.01277954",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3950,7 +3950,7 @@
     },
     {
       "asset": "ETHFI",
-      "latestAnnualPercentageRate": "0.00291579",
+      "latestAnnualPercentageRate": "0.00294478",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3964,7 +3964,7 @@
     },
     {
       "asset": "INJ",
-      "latestAnnualPercentageRate": "0.01466076",
+      "latestAnnualPercentageRate": "0.01399341",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3978,7 +3978,7 @@
     },
     {
       "asset": "METIS",
-      "latestAnnualPercentageRate": "0.02003954",
+      "latestAnnualPercentageRate": "0.01895391",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -3992,7 +3992,7 @@
     },
     {
       "asset": "SCR",
-      "latestAnnualPercentageRate": "0.02239567",
+      "latestAnnualPercentageRate": "0.0224153",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4006,7 +4006,7 @@
     },
     {
       "asset": "STG",
-      "latestAnnualPercentageRate": "0.08838316",
+      "latestAnnualPercentageRate": "0.10802398",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4020,7 +4020,7 @@
     },
     {
       "asset": "STRK",
-      "latestAnnualPercentageRate": "0.01700645",
+      "latestAnnualPercentageRate": "0.01709549",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4034,7 +4034,7 @@
     },
     {
       "asset": "VANRY",
-      "latestAnnualPercentageRate": "0.0341157",
+      "latestAnnualPercentageRate": "0.03469549",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4048,7 +4048,7 @@
     },
     {
       "asset": "WIF",
-      "latestAnnualPercentageRate": "0.00506767",
+      "latestAnnualPercentageRate": "0.00506402",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4062,7 +4062,7 @@
     },
     {
       "asset": "XVG",
-      "latestAnnualPercentageRate": "0.01549946",
+      "latestAnnualPercentageRate": "0.01572488",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4076,7 +4076,7 @@
     },
     {
       "asset": "NEAR",
-      "latestAnnualPercentageRate": "0.00311411",
+      "latestAnnualPercentageRate": "0.00287587",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4090,7 +4090,7 @@
     },
     {
       "asset": "ADA",
-      "latestAnnualPercentageRate": "0.00216392",
+      "latestAnnualPercentageRate": "0.00192244",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4104,7 +4104,7 @@
     },
     {
       "asset": "ALT",
-      "latestAnnualPercentageRate": "0.02377605",
+      "latestAnnualPercentageRate": "0.03261645",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4118,7 +4118,7 @@
     },
     {
       "asset": "APE",
-      "latestAnnualPercentageRate": "0.04187682",
+      "latestAnnualPercentageRate": "0.04195023",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4132,7 +4132,7 @@
     },
     {
       "asset": "ARB",
-      "latestAnnualPercentageRate": "0.00153593",
+      "latestAnnualPercentageRate": "0.00154274",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4146,7 +4146,7 @@
     },
     {
       "asset": "BCH",
-      "latestAnnualPercentageRate": "0.02931279",
+      "latestAnnualPercentageRate": "0.02979551",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4160,7 +4160,7 @@
     },
     {
       "asset": "DAI",
-      "latestAnnualPercentageRate": "0.05016812",
+      "latestAnnualPercentageRate": "0.04867039",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4174,7 +4174,7 @@
     },
     {
       "asset": "FDUSD",
-      "latestAnnualPercentageRate": "0.00745818",
+      "latestAnnualPercentageRate": "0.0074307",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4188,7 +4188,7 @@
     },
     {
       "asset": "IO",
-      "latestAnnualPercentageRate": "0.02295172",
+      "latestAnnualPercentageRate": "0.02309861",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4202,7 +4202,7 @@
     },
     {
       "asset": "JST",
-      "latestAnnualPercentageRate": "0.02502256",
+      "latestAnnualPercentageRate": "0.02620853",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4216,7 +4216,7 @@
     },
     {
       "asset": "JTO",
-      "latestAnnualPercentageRate": "0.03320728",
+      "latestAnnualPercentageRate": "0.03323952",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4230,7 +4230,7 @@
     },
     {
       "asset": "KSM",
-      "latestAnnualPercentageRate": "0.02219767",
+      "latestAnnualPercentageRate": "0.022235",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4244,7 +4244,7 @@
     },
     {
       "asset": "LISTA",
-      "latestAnnualPercentageRate": "0.00694516",
+      "latestAnnualPercentageRate": "0.00694564",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4258,7 +4258,7 @@
     },
     {
       "asset": "MEME",
-      "latestAnnualPercentageRate": "0.06110276",
+      "latestAnnualPercentageRate": "0.04682936",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4272,7 +4272,7 @@
     },
     {
       "asset": "OSMO",
-      "latestAnnualPercentageRate": "0.1299042",
+      "latestAnnualPercentageRate": "0.13055681",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4286,7 +4286,7 @@
     },
     {
       "asset": "PEPE",
-      "latestAnnualPercentageRate": "0.00739745",
+      "latestAnnualPercentageRate": "0.00705255",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4300,7 +4300,7 @@
     },
     {
       "asset": "RENDER",
-      "latestAnnualPercentageRate": "0.00321576",
+      "latestAnnualPercentageRate": "0.00308838",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4314,7 +4314,7 @@
     },
     {
       "asset": "SAGA",
-      "latestAnnualPercentageRate": "0.05698056",
+      "latestAnnualPercentageRate": "0.0399834",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4328,7 +4328,7 @@
     },
     {
       "asset": "SHIB",
-      "latestAnnualPercentageRate": "0.00044345",
+      "latestAnnualPercentageRate": "0.00038205",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4342,7 +4342,7 @@
     },
     {
       "asset": "TAO",
-      "latestAnnualPercentageRate": "0.00457197",
+      "latestAnnualPercentageRate": "0.00469379",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4356,7 +4356,7 @@
     },
     {
       "asset": "TON",
-      "latestAnnualPercentageRate": "0.00308985",
+      "latestAnnualPercentageRate": "0.00269964",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4370,7 +4370,7 @@
     },
     {
       "asset": "TUSD",
-      "latestAnnualPercentageRate": "0.01034206",
+      "latestAnnualPercentageRate": "0.01033804",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4384,7 +4384,7 @@
     },
     {
       "asset": "W",
-      "latestAnnualPercentageRate": "0.02510425",
+      "latestAnnualPercentageRate": "0.02452664",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4398,7 +4398,7 @@
     },
     {
       "asset": "ZRO",
-      "latestAnnualPercentageRate": "0.0101247",
+      "latestAnnualPercentageRate": "0.01208102",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4412,7 +4412,7 @@
     },
     {
       "asset": "1INCH",
-      "latestAnnualPercentageRate": "0.01501427",
+      "latestAnnualPercentageRate": "0.01128484",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4426,7 +4426,7 @@
     },
     {
       "asset": "ALCX",
-      "latestAnnualPercentageRate": "0.03197037",
+      "latestAnnualPercentageRate": "0.03201966",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4440,7 +4440,7 @@
     },
     {
       "asset": "ALPINE",
-      "latestAnnualPercentageRate": "0.04731322",
+      "latestAnnualPercentageRate": "0.04741595",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4454,7 +4454,7 @@
     },
     {
       "asset": "APT",
-      "latestAnnualPercentageRate": "0.0195492",
+      "latestAnnualPercentageRate": "0.01962645",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4468,7 +4468,7 @@
     },
     {
       "asset": "ATM",
-      "latestAnnualPercentageRate": "0.02917169",
+      "latestAnnualPercentageRate": "0.03041209",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4482,7 +4482,7 @@
     },
     {
       "asset": "BICO",
-      "latestAnnualPercentageRate": "0.03668963",
+      "latestAnnualPercentageRate": "0.03671323",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4496,7 +4496,7 @@
     },
     {
       "asset": "CAKE",
-      "latestAnnualPercentageRate": "0.00137824",
+      "latestAnnualPercentageRate": "0.00127281",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4510,7 +4510,7 @@
     },
     {
       "asset": "CFX",
-      "latestAnnualPercentageRate": "0.00052125",
+      "latestAnnualPercentageRate": "0.00077511",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4524,7 +4524,7 @@
     },
     {
       "asset": "CHZ",
-      "latestAnnualPercentageRate": "0.0087439",
+      "latestAnnualPercentageRate": "0.00665594",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4538,7 +4538,7 @@
     },
     {
       "asset": "CRV",
-      "latestAnnualPercentageRate": "0.00357654",
+      "latestAnnualPercentageRate": "0.00312626",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4552,7 +4552,7 @@
     },
     {
       "asset": "CTSI",
-      "latestAnnualPercentageRate": "0.03400338",
+      "latestAnnualPercentageRate": "0.03401283",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4566,7 +4566,7 @@
     },
     {
       "asset": "CVX",
-      "latestAnnualPercentageRate": "0.0675615",
+      "latestAnnualPercentageRate": "0.04009304",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4580,7 +4580,7 @@
     },
     {
       "asset": "DENT",
-      "latestAnnualPercentageRate": "0.09492137",
+      "latestAnnualPercentageRate": "0.0948269",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4594,7 +4594,7 @@
     },
     {
       "asset": "DYDX",
-      "latestAnnualPercentageRate": "0.00621036",
+      "latestAnnualPercentageRate": "0.00234924",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4608,7 +4608,7 @@
     },
     {
       "asset": "EDU",
-      "latestAnnualPercentageRate": "0.03117599",
+      "latestAnnualPercentageRate": "0.0324438",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4622,7 +4622,7 @@
     },
     {
       "asset": "ENS",
-      "latestAnnualPercentageRate": "0.00159214",
+      "latestAnnualPercentageRate": "0.00169845",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4636,7 +4636,7 @@
     },
     {
       "asset": "ETC",
-      "latestAnnualPercentageRate": "0.00144551",
+      "latestAnnualPercentageRate": "0.00145327",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4650,7 +4650,7 @@
     },
     {
       "asset": "FLOW",
-      "latestAnnualPercentageRate": "0.00302283",
+      "latestAnnualPercentageRate": "0.0032172",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4664,7 +4664,7 @@
     },
     {
       "asset": "GLMR",
-      "latestAnnualPercentageRate": "0.10800515",
+      "latestAnnualPercentageRate": "0.1083251",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4678,7 +4678,7 @@
     },
     {
       "asset": "IOTA",
-      "latestAnnualPercentageRate": "0.00565162",
+      "latestAnnualPercentageRate": "0.0067566",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4692,7 +4692,7 @@
     },
     {
       "asset": "JASMY",
-      "latestAnnualPercentageRate": "0.01064268",
+      "latestAnnualPercentageRate": "0.00866392",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4706,7 +4706,7 @@
     },
     {
       "asset": "JUV",
-      "latestAnnualPercentageRate": "0.03289583",
+      "latestAnnualPercentageRate": "0.03285379",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4720,7 +4720,7 @@
     },
     {
       "asset": "KAVA",
-      "latestAnnualPercentageRate": "0.0952814",
+      "latestAnnualPercentageRate": "0.09404609",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4734,7 +4734,7 @@
     },
     {
       "asset": "LAZIO",
-      "latestAnnualPercentageRate": "0.02112538",
+      "latestAnnualPercentageRate": "0.02055671",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4748,7 +4748,7 @@
     },
     {
       "asset": "LDO",
-      "latestAnnualPercentageRate": "0.00158616",
+      "latestAnnualPercentageRate": "0.00121417",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4762,7 +4762,7 @@
     },
     {
       "asset": "LUNA",
-      "latestAnnualPercentageRate": "0.01349229",
+      "latestAnnualPercentageRate": "0.01369365",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4776,7 +4776,7 @@
     },
     {
       "asset": "LUNC",
-      "latestAnnualPercentageRate": "0.00281509",
+      "latestAnnualPercentageRate": "0.0028125",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4790,7 +4790,7 @@
     },
     {
       "asset": "MANA",
-      "latestAnnualPercentageRate": "0.0128428",
+      "latestAnnualPercentageRate": "0.01165448",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4804,7 +4804,7 @@
     },
     {
       "asset": "MAV",
-      "latestAnnualPercentageRate": "0.02336154",
+      "latestAnnualPercentageRate": "0.02337711",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4818,7 +4818,7 @@
     },
     {
       "asset": "MBOX",
-      "latestAnnualPercentageRate": "0.03466693",
+      "latestAnnualPercentageRate": "0.03432973",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4832,7 +4832,7 @@
     },
     {
       "asset": "MDT",
-      "latestAnnualPercentageRate": "0.09838988",
+      "latestAnnualPercentageRate": "0.09846383",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4846,7 +4846,7 @@
     },
     {
       "asset": "ONE",
-      "latestAnnualPercentageRate": "0.00507381",
+      "latestAnnualPercentageRate": "0.0050655",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4860,7 +4860,7 @@
     },
     {
       "asset": "OP",
-      "latestAnnualPercentageRate": "0.01092444",
+      "latestAnnualPercentageRate": "0.00785714",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4874,7 +4874,7 @@
     },
     {
       "asset": "PENDLE",
-      "latestAnnualPercentageRate": "0.00369344",
+      "latestAnnualPercentageRate": "0.00368409",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4888,7 +4888,7 @@
     },
     {
       "asset": "PORTO",
-      "latestAnnualPercentageRate": "0.03276978",
+      "latestAnnualPercentageRate": "0.03283418",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4902,7 +4902,7 @@
     },
     {
       "asset": "PYR",
-      "latestAnnualPercentageRate": "0.06523802",
+      "latestAnnualPercentageRate": "0.06750095",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4916,7 +4916,7 @@
     },
     {
       "asset": "QKC",
-      "latestAnnualPercentageRate": "0.11244559",
+      "latestAnnualPercentageRate": "0.11249712",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4930,7 +4930,7 @@
     },
     {
       "asset": "REQ",
-      "latestAnnualPercentageRate": "0.03981867",
+      "latestAnnualPercentageRate": "0.0398299",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4944,7 +4944,7 @@
     },
     {
       "asset": "RLC",
-      "latestAnnualPercentageRate": "0.09450184",
+      "latestAnnualPercentageRate": "0.01656504",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4958,7 +4958,7 @@
     },
     {
       "asset": "ROSE",
-      "latestAnnualPercentageRate": "0.00575869",
+      "latestAnnualPercentageRate": "0.00597571",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4972,7 +4972,7 @@
     },
     {
       "asset": "SAND",
-      "latestAnnualPercentageRate": "0.02267104",
+      "latestAnnualPercentageRate": "0.02279854",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -4986,7 +4986,7 @@
     },
     {
       "asset": "SSV",
-      "latestAnnualPercentageRate": "0.00342746",
+      "latestAnnualPercentageRate": "0.00381932",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5000,7 +5000,7 @@
     },
     {
       "asset": "STX",
-      "latestAnnualPercentageRate": "0.01493128",
+      "latestAnnualPercentageRate": "0.01491512",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5014,7 +5014,7 @@
     },
     {
       "asset": "SUPER",
-      "latestAnnualPercentageRate": "0.11546348",
+      "latestAnnualPercentageRate": "0.11483532",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5028,7 +5028,7 @@
     },
     {
       "asset": "SUSHI",
-      "latestAnnualPercentageRate": "0.00557168",
+      "latestAnnualPercentageRate": "0.00490925",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5042,7 +5042,7 @@
     },
     {
       "asset": "TRU",
-      "latestAnnualPercentageRate": "0.06883474",
+      "latestAnnualPercentageRate": "0.06819165",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5056,7 +5056,7 @@
     },
     {
       "asset": "TRX",
-      "latestAnnualPercentageRate": "0.02940466",
+      "latestAnnualPercentageRate": "0.02950893",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5070,7 +5070,7 @@
     },
     {
       "asset": "WAN",
-      "latestAnnualPercentageRate": "0.10107476",
+      "latestAnnualPercentageRate": "0.10113647",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5084,7 +5084,7 @@
     },
     {
       "asset": "WLD",
-      "latestAnnualPercentageRate": "0.00794762",
+      "latestAnnualPercentageRate": "0.00759651",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5098,7 +5098,7 @@
     },
     {
       "asset": "WOO",
-      "latestAnnualPercentageRate": "0.03925696",
+      "latestAnnualPercentageRate": "0.03925682",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5112,7 +5112,7 @@
     },
     {
       "asset": "XLM",
-      "latestAnnualPercentageRate": "0.00285932",
+      "latestAnnualPercentageRate": "0.00285423",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5126,7 +5126,7 @@
     },
     {
       "asset": "XNO",
-      "latestAnnualPercentageRate": "0.02293565",
+      "latestAnnualPercentageRate": "0.02527592",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5140,7 +5140,7 @@
     },
     {
       "asset": "ZEN",
-      "latestAnnualPercentageRate": "0.00354117",
+      "latestAnnualPercentageRate": "0.00347697",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5154,7 +5154,7 @@
     },
     {
       "asset": "ACM",
-      "latestAnnualPercentageRate": "0.03890444",
+      "latestAnnualPercentageRate": "0.03718016",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5168,7 +5168,7 @@
     },
     {
       "asset": "ADX",
-      "latestAnnualPercentageRate": "0.0696049",
+      "latestAnnualPercentageRate": "0.06959551",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5182,7 +5182,7 @@
     },
     {
       "asset": "BAND",
-      "latestAnnualPercentageRate": "0.02149757",
+      "latestAnnualPercentageRate": "0.0215044",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5196,7 +5196,7 @@
     },
     {
       "asset": "BAR",
-      "latestAnnualPercentageRate": "0.05525749",
+      "latestAnnualPercentageRate": "0.05607209",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5210,7 +5210,7 @@
     },
     {
       "asset": "BIFI",
-      "latestAnnualPercentageRate": "0.10576022",
+      "latestAnnualPercentageRate": "0.10007396",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5224,7 +5224,7 @@
     },
     {
       "asset": "BTTC",
-      "latestAnnualPercentageRate": "0.02851821",
+      "latestAnnualPercentageRate": "0.02862088",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5238,7 +5238,7 @@
     },
     {
       "asset": "C98",
-      "latestAnnualPercentageRate": "0.00750839",
+      "latestAnnualPercentageRate": "0.00623339",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5252,7 +5252,7 @@
     },
     {
       "asset": "CHR",
-      "latestAnnualPercentageRate": "0.01297498",
+      "latestAnnualPercentageRate": "0.01297334",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5266,7 +5266,7 @@
     },
     {
       "asset": "COTI",
-      "latestAnnualPercentageRate": "0.00845684",
+      "latestAnnualPercentageRate": "0.02601504",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5280,7 +5280,7 @@
     },
     {
       "asset": "CYBER",
-      "latestAnnualPercentageRate": "0.04118204",
+      "latestAnnualPercentageRate": "0.03807554",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5294,7 +5294,7 @@
     },
     {
       "asset": "DEGO",
-      "latestAnnualPercentageRate": "0.16650981",
+      "latestAnnualPercentageRate": "0.16495388",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5308,7 +5308,7 @@
     },
     {
       "asset": "DEXE",
-      "latestAnnualPercentageRate": "0.09793701",
+      "latestAnnualPercentageRate": "0.09742336",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5322,7 +5322,7 @@
     },
     {
       "asset": "DODO",
-      "latestAnnualPercentageRate": "0.06750875",
+      "latestAnnualPercentageRate": "0.0302771",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5336,7 +5336,7 @@
     },
     {
       "asset": "EGLD",
-      "latestAnnualPercentageRate": "0.0125221",
+      "latestAnnualPercentageRate": "0.01253321",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5350,7 +5350,7 @@
     },
     {
       "asset": "GNS",
-      "latestAnnualPercentageRate": "0.07113544",
+      "latestAnnualPercentageRate": "0.06985642",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5364,7 +5364,7 @@
     },
     {
       "asset": "GTC",
-      "latestAnnualPercentageRate": "0.11038658",
+      "latestAnnualPercentageRate": "0.11589743",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5378,7 +5378,7 @@
     },
     {
       "asset": "HOT",
-      "latestAnnualPercentageRate": "0.00983584",
+      "latestAnnualPercentageRate": "0.00973933",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5392,7 +5392,7 @@
     },
     {
       "asset": "IOTX",
-      "latestAnnualPercentageRate": "0.01419047",
+      "latestAnnualPercentageRate": "0.01417237",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5406,7 +5406,7 @@
     },
     {
       "asset": "IQ",
-      "latestAnnualPercentageRate": "0.13527639",
+      "latestAnnualPercentageRate": "0.13478731",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5420,7 +5420,7 @@
     },
     {
       "asset": "KNC",
-      "latestAnnualPercentageRate": "0.15696946",
+      "latestAnnualPercentageRate": "0.15707052",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5434,7 +5434,7 @@
     },
     {
       "asset": "MOVR",
-      "latestAnnualPercentageRate": "0.04791387",
+      "latestAnnualPercentageRate": "0.04805896",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5448,7 +5448,7 @@
     },
     {
       "asset": "OGN",
-      "latestAnnualPercentageRate": "0.11207699",
+      "latestAnnualPercentageRate": "0.11187115",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5462,7 +5462,7 @@
     },
     {
       "asset": "QNT",
-      "latestAnnualPercentageRate": "0.00268725",
+      "latestAnnualPercentageRate": "0.00307841",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5476,7 +5476,7 @@
     },
     {
       "asset": "SFP",
-      "latestAnnualPercentageRate": "0.01120688",
+      "latestAnnualPercentageRate": "0.01052237",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5490,7 +5490,7 @@
     },
     {
       "asset": "SLP",
-      "latestAnnualPercentageRate": "0.01319973",
+      "latestAnnualPercentageRate": "0.03307256",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5504,7 +5504,7 @@
     },
     {
       "asset": "SNX",
-      "latestAnnualPercentageRate": "0.0101642",
+      "latestAnnualPercentageRate": "0.01135403",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5518,7 +5518,7 @@
     },
     {
       "asset": "SUN",
-      "latestAnnualPercentageRate": "0.01599231",
+      "latestAnnualPercentageRate": "0.01587181",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5532,7 +5532,7 @@
     },
     {
       "asset": "USTC",
-      "latestAnnualPercentageRate": "0.01215997",
+      "latestAnnualPercentageRate": "0.01381554",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5546,7 +5546,7 @@
     },
     {
       "asset": "UTK",
-      "latestAnnualPercentageRate": "0.07176272",
+      "latestAnnualPercentageRate": "0.07120199",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5560,7 +5560,7 @@
     },
     {
       "asset": "XEC",
-      "latestAnnualPercentageRate": "0.00734369",
+      "latestAnnualPercentageRate": "0.00735849",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5574,7 +5574,7 @@
     },
     {
       "asset": "ZRX",
-      "latestAnnualPercentageRate": "0.11293343",
+      "latestAnnualPercentageRate": "0.11303375",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5588,7 +5588,7 @@
     },
     {
       "asset": "AAVE",
-      "latestAnnualPercentageRate": "0.00045155",
+      "latestAnnualPercentageRate": "0.00045415",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5602,7 +5602,7 @@
     },
     {
       "asset": "ALGO",
-      "latestAnnualPercentageRate": "0.00489177",
+      "latestAnnualPercentageRate": "0.00489954",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5616,7 +5616,7 @@
     },
     {
       "asset": "AR",
-      "latestAnnualPercentageRate": "0.00040817",
+      "latestAnnualPercentageRate": "0.00041079",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5630,7 +5630,7 @@
     },
     {
       "asset": "AUDIO",
-      "latestAnnualPercentageRate": "0.07581452",
+      "latestAnnualPercentageRate": "0.11982283",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5644,7 +5644,7 @@
     },
     {
       "asset": "CELO",
-      "latestAnnualPercentageRate": "0.04835633",
+      "latestAnnualPercentageRate": "0.04654959",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5658,7 +5658,7 @@
     },
     {
       "asset": "CELR",
-      "latestAnnualPercentageRate": "0.03059715",
+      "latestAnnualPercentageRate": "0.03060572",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5672,7 +5672,7 @@
     },
     {
       "asset": "CKB",
-      "latestAnnualPercentageRate": "0.01350096",
+      "latestAnnualPercentageRate": "0.01293935",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5686,7 +5686,7 @@
     },
     {
       "asset": "CTK",
-      "latestAnnualPercentageRate": "0.02676403",
+      "latestAnnualPercentageRate": "0.04974506",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5700,7 +5700,7 @@
     },
     {
       "asset": "DIA",
-      "latestAnnualPercentageRate": "0.01090708",
+      "latestAnnualPercentageRate": "0.01090899",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5714,7 +5714,7 @@
     },
     {
       "asset": "DOGE",
-      "latestAnnualPercentageRate": "0.00112648",
+      "latestAnnualPercentageRate": "0.00112753",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5728,7 +5728,7 @@
     },
     {
       "asset": "DUSK",
-      "latestAnnualPercentageRate": "0.06977814",
+      "latestAnnualPercentageRate": "0.09621504",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5742,7 +5742,7 @@
     },
     {
       "asset": "FARM",
-      "latestAnnualPercentageRate": "0.07028729",
+      "latestAnnualPercentageRate": "0.07086644",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5756,7 +5756,7 @@
     },
     {
       "asset": "FET",
-      "latestAnnualPercentageRate": "0.02239905",
+      "latestAnnualPercentageRate": "0.02186183",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5770,7 +5770,7 @@
     },
     {
       "asset": "GALA",
-      "latestAnnualPercentageRate": "0.00496505",
+      "latestAnnualPercentageRate": "0.00427349",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5784,7 +5784,7 @@
     },
     {
       "asset": "GRT",
-      "latestAnnualPercentageRate": "0.00319815",
+      "latestAnnualPercentageRate": "0.00320492",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5798,7 +5798,7 @@
     },
     {
       "asset": "HBAR",
-      "latestAnnualPercentageRate": "0.00083612",
+      "latestAnnualPercentageRate": "0.00086378",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5812,7 +5812,7 @@
     },
     {
       "asset": "ICP",
-      "latestAnnualPercentageRate": "0.00952274",
+      "latestAnnualPercentageRate": "0.00752094",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5826,7 +5826,7 @@
     },
     {
       "asset": "ILV",
-      "latestAnnualPercentageRate": "0.08092107",
+      "latestAnnualPercentageRate": "0.05084637",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5840,7 +5840,7 @@
     },
     {
       "asset": "JOE",
-      "latestAnnualPercentageRate": "0.04137621",
+      "latestAnnualPercentageRate": "0.04216587",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5854,7 +5854,7 @@
     },
     {
       "asset": "LINK",
-      "latestAnnualPercentageRate": "0.0002927",
+      "latestAnnualPercentageRate": "0.00026866",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5868,7 +5868,7 @@
     },
     {
       "asset": "LQTY",
-      "latestAnnualPercentageRate": "0.04923698",
+      "latestAnnualPercentageRate": "0.04361989",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5882,7 +5882,7 @@
     },
     {
       "asset": "LTC",
-      "latestAnnualPercentageRate": "0.00204126",
+      "latestAnnualPercentageRate": "0.00206757",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5896,7 +5896,7 @@
     },
     {
       "asset": "MASK",
-      "latestAnnualPercentageRate": "0.01953357",
+      "latestAnnualPercentageRate": "0.01953479",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5924,7 +5924,7 @@
     },
     {
       "asset": "NEXO",
-      "latestAnnualPercentageRate": "0.05655569",
+      "latestAnnualPercentageRate": "0.05626702",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5938,7 +5938,7 @@
     },
     {
       "asset": "PAXG",
-      "latestAnnualPercentageRate": "0.00031357",
+      "latestAnnualPercentageRate": "0.00029958",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5952,7 +5952,7 @@
     },
     {
       "asset": "PEOPLE",
-      "latestAnnualPercentageRate": "0.00756218",
+      "latestAnnualPercentageRate": "0.00756932",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5966,7 +5966,7 @@
     },
     {
       "asset": "PHB",
-      "latestAnnualPercentageRate": "0.0903204",
+      "latestAnnualPercentageRate": "0.09241245",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5980,7 +5980,7 @@
     },
     {
       "asset": "PIVX",
-      "latestAnnualPercentageRate": "0.04570741",
+      "latestAnnualPercentageRate": "0.04572321",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -5994,7 +5994,7 @@
     },
     {
       "asset": "PSG",
-      "latestAnnualPercentageRate": "0.06291678",
+      "latestAnnualPercentageRate": "0.07249406",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6008,7 +6008,7 @@
     },
     {
       "asset": "RSR",
-      "latestAnnualPercentageRate": "0.00744459",
+      "latestAnnualPercentageRate": "0.00767052",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6022,7 +6022,7 @@
     },
     {
       "asset": "RUNE",
-      "latestAnnualPercentageRate": "0.01350441",
+      "latestAnnualPercentageRate": "0.01096314",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6036,7 +6036,7 @@
     },
     {
       "asset": "SKL",
-      "latestAnnualPercentageRate": "0.04558762",
+      "latestAnnualPercentageRate": "0.03646251",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6050,7 +6050,7 @@
     },
     {
       "asset": "TFUEL",
-      "latestAnnualPercentageRate": "0.04273142",
+      "latestAnnualPercentageRate": "0.04286798",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6064,7 +6064,7 @@
     },
     {
       "asset": "THETA",
-      "latestAnnualPercentageRate": "0.00181256",
+      "latestAnnualPercentageRate": "0.00181778",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6078,7 +6078,7 @@
     },
     {
       "asset": "TKO",
-      "latestAnnualPercentageRate": "0.00502094",
+      "latestAnnualPercentageRate": "0.00502196",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6092,7 +6092,7 @@
     },
     {
       "asset": "TLM",
-      "latestAnnualPercentageRate": "0.13545639",
+      "latestAnnualPercentageRate": "0.09396195",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6120,7 +6120,7 @@
     },
     {
       "asset": "TRB",
-      "latestAnnualPercentageRate": "0.00919991",
+      "latestAnnualPercentageRate": "0.00926972",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6134,7 +6134,7 @@
     },
     {
       "asset": "TWT",
-      "latestAnnualPercentageRate": "0.00170839",
+      "latestAnnualPercentageRate": "0.00198763",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6162,7 +6162,7 @@
     },
     {
       "asset": "UNI",
-      "latestAnnualPercentageRate": "0.00483494",
+      "latestAnnualPercentageRate": "0.00481189",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6176,7 +6176,7 @@
     },
     {
       "asset": "USDP",
-      "latestAnnualPercentageRate": "0.02889349",
+      "latestAnnualPercentageRate": "0.02898424",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6190,7 +6190,7 @@
     },
     {
       "asset": "VET",
-      "latestAnnualPercentageRate": "0.00157157",
+      "latestAnnualPercentageRate": "0.00157262",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6204,7 +6204,7 @@
     },
     {
       "asset": "XRP",
-      "latestAnnualPercentageRate": "0.00093937",
+      "latestAnnualPercentageRate": "0.00085092",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6218,7 +6218,7 @@
     },
     {
       "asset": "XTZ",
-      "latestAnnualPercentageRate": "0.01726262",
+      "latestAnnualPercentageRate": "0.01998612",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6232,7 +6232,7 @@
     },
     {
       "asset": "XVS",
-      "latestAnnualPercentageRate": "0.02017683",
+      "latestAnnualPercentageRate": "0.02086482",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6246,7 +6246,7 @@
     },
     {
       "asset": "YFI",
-      "latestAnnualPercentageRate": "0.01332126",
+      "latestAnnualPercentageRate": "0.01348146",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6260,7 +6260,7 @@
     },
     {
       "asset": "ZEC",
-      "latestAnnualPercentageRate": "0.00870205",
+      "latestAnnualPercentageRate": "0.0086637",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6274,7 +6274,7 @@
     },
     {
       "asset": "ZIL",
-      "latestAnnualPercentageRate": "0.05726353",
+      "latestAnnualPercentageRate": "0.05321817",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6288,7 +6288,7 @@
     },
     {
       "asset": "DGB",
-      "latestAnnualPercentageRate": "0.01015229",
+      "latestAnnualPercentageRate": "0.01001928",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6302,7 +6302,7 @@
     },
     {
       "asset": "PROM",
-      "latestAnnualPercentageRate": "0.06203731",
+      "latestAnnualPercentageRate": "0.06222804",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6316,7 +6316,7 @@
     },
     {
       "asset": "SC",
-      "latestAnnualPercentageRate": "0.00409965",
+      "latestAnnualPercentageRate": "0.00396383",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6330,7 +6330,7 @@
     },
     {
       "asset": "WIN",
-      "latestAnnualPercentageRate": "0.00541",
+      "latestAnnualPercentageRate": "0.00522791",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6344,7 +6344,7 @@
     },
     {
       "asset": "ALICE",
-      "latestAnnualPercentageRate": "0.08102815",
+      "latestAnnualPercentageRate": "0.0815765",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6358,7 +6358,7 @@
     },
     {
       "asset": "ANKR",
-      "latestAnnualPercentageRate": "0.19355833",
+      "latestAnnualPercentageRate": "0.18551558",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6372,7 +6372,7 @@
     },
     {
       "asset": "ARK",
-      "latestAnnualPercentageRate": "0.17473101",
+      "latestAnnualPercentageRate": "0.17480197",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6386,7 +6386,7 @@
     },
     {
       "asset": "ARKM",
-      "latestAnnualPercentageRate": "0.00983035",
+      "latestAnnualPercentageRate": "0.01077522",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6400,7 +6400,7 @@
     },
     {
       "asset": "DASH",
-      "latestAnnualPercentageRate": "0.01106556",
+      "latestAnnualPercentageRate": "0.01113721",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6414,7 +6414,7 @@
     },
     {
       "asset": "DCR",
-      "latestAnnualPercentageRate": "0.02678014",
+      "latestAnnualPercentageRate": "0.02676",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6428,7 +6428,7 @@
     },
     {
       "asset": "FTT",
-      "latestAnnualPercentageRate": "0.00566118",
+      "latestAnnualPercentageRate": "0.01606694",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6442,7 +6442,7 @@
     },
     {
       "asset": "GNO",
-      "latestAnnualPercentageRate": "0.12150591",
+      "latestAnnualPercentageRate": "0.1232282",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
@@ -6456,7 +6456,7 @@
     },
     {
       "asset": "RAY",
-      "latestAnnualPercentageRate": "0.01194869",
+      "latestAnnualPercentageRate": "0.0120465",
       "tierAnnualPercentageRate": {},
       "airDropPercentageRate": "",
       "canPurchase": true,
